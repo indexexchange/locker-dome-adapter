@@ -1,0 +1,19 @@
+{
+  "name": "self-serve-partners-template",
+  "version": "1.0.0",
+  "description": "A complete self-serve partner development package for Index Exchange's wrapper.",
+  "private": true,
+  "author": "Index Exchange",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "adapter-development-suite": "git+https://github.com/indexexchange/adapter-development-suite.git",
+    "eslint": "^4.13.1",
+    "eslint-config-adapters": "git+https://github.com/indexexchange/eslint-config-adapters.git"
+  },
+  "scripts": {
+    "debug": "node ./node_modules/adapter-development-suite/bin/index.js",
+    "win-debug": "node .\\node_modules\\adapter-development-suite\\bin\\index.js",
+    "lint": "node ./node_modules/eslint/bin/eslint.js --ignore-path=./.eslintignore .",
+    "win-lint": "node .\\node_modules\\eslint\\bin\\eslint.js --ignore-path=.\\.eslintignore ."
+  }
+}
