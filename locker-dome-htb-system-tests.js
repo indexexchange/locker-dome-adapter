@@ -48,14 +48,14 @@ function getValidResponse(request, creative) {
         bids: [
             {
                 requestId: requestIds[0],
-                cpm: 1,
+                cpm: 2,
                 width: 300,
                 height: 250,
                 ad: creative
             },
             {
                 requestId: requestIds[1],
-                cpm: 1,
+                cpm: 2,
                 width: 300,
                 height: 250,
                 ad: creative
@@ -66,7 +66,7 @@ function getValidResponse(request, creative) {
 
 function validateTargeting(targetingMap) {
     expect(targetingMap).toEqual(jasmine.objectContaining({
-        ix_lkdm_cpm: jasmine.arrayContaining(['300x250_100', '300x250_100']),
+        ix_lkdm_cpm: jasmine.arrayContaining(['300x250_200', '300x250_200']),
         ix_lkdm_id: jasmine.arrayContaining([jasmine.any(String), jasmine.any(String)])
     }));
 }
