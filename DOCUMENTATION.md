@@ -29,8 +29,8 @@
 | Partner Id | LockerDomeHtb |
 | Ad Server Responds in (Cents, Dollars, etc) | Dollars |
 | Bid Type (Gross / Net) | Net |
-| GAM Key (Open Market) | n/a |
-| GAM Key (Private Market) | n/a |
+| GAM Key (Open Market) | ix_lkdm_cpm |
+| GAM Key (Private Market) | ix_lkdm_cpm |
 | Ad Server URLs | https://lockerdome.com/ladbid/indexexchange |
 | Slot Mapping Style (Size / Multiple Sizes / Slot) | Slot |
 | Request Architecture (MRA / SRA) | FSRA |
